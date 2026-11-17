@@ -13,7 +13,7 @@ require_once 'conexion.php';
 </div>
 <div>
 <!-- Colocá una imagen a elección en esta ruta -->
-<img src="assets/img/portada.jpg" alt="Imagen principal de NEXPLAY">
+<img src="img/ip.jpeg" alt="Imagen principal de NEXPLAY">
 </div>
 </section>
 <section class="seccion">
@@ -21,7 +21,7 @@ require_once 'conexion.php';
 <div class="tarjetas"><?php
 foreach($juegos as $j):
 ?><article class="tarjeta">
-<img src="<?= escapar($j['imagen']?:'assets/img/sin-imagen.jpg') ?>" alt="Portada de <?= escapar($j['nombre']) ?>">
+<img src="<?= escapar($j['imagen']?:'img/sin-imagen.jpg') ?>" alt="Portada de <?= escapar($j['nombre']) ?>">
 <div>
 <small><?= escapar($j['categoria']) ?></small>
 <h3><?= escapar($j['nombre']) ?></h3>

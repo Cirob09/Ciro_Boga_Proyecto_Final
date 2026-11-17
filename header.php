@@ -7,14 +7,14 @@ require_once __DIR__.'/funciones.php';
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NEXPLAY</title>
-<link rel="stylesheet" href="css/estilos.css">
+<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 <header>
 <div class="contenedor nav">
 <a class="marca" href="index.php">
 <!-- Reemplazá por tu logo de Canva -->
-<img src="assets/img/logo.png" alt="Logo NEXPLAY">
+<img src="img/logo.jpeg" alt="Logo NEXPLAY">
 <b>NEXPLAY</b>
 </a>
 <nav>

@@ -1,9 +1,0 @@
-REFLEXIÓN DEL PROYECTO NEXPLAY
-
-NEXPLAY es una página web relacionada con videojuegos. Permite recorrer un catálogo, buscar títulos y consultar sus características. También cuenta con registro e inicio de sesión, un panel personal y un panel administrativo.
-
-Para desarrollarla se utilizan HTML y CSS en la interfaz, PHP para procesar formularios y MySQL para almacenar los datos. La conexión se realiza mediante PDO. Las contraseñas se guardan con password_hash() y se verifican con password_verify().
-
-El administrador puede buscar, editar, archivar y reactivar usuarios. El archivado es lógico, por lo que el registro se conserva en la base de datos. También puede agregar videojuegos y sus portadas.
-
-Entre las dificultades posibles se encuentran errores de conexión, nombres de campos incorrectos o rutas de imágenes. Para resolverlos se revisan conexion.php, database.sql y la ubicación de los archivos. Las capturas y los resultados de las pruebas se deben agregar luego de ejecutar el proyecto en XAMPP.
